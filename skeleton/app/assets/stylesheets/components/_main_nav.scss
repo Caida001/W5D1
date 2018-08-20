@@ -1,0 +1,59 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+
+.left-nav > ul > li {
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+
+}
+
+.right-nav > ul > li {
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav button {
+  text-transform: uppercase;
+}
+
+.right-nav button {
+  color: white;
+  background-color: #6288A5;
+  text-transform: uppercase;
+}
+
+.right-nav button:hover {
+  background-color: #4d7b9f
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav button:hover {
+  background-color: $lightest-gray;
+}
+
+
+.right-nav i {
+  // display: inline-block;
+   text-align: center;
+   margin: 5px;
+
+}

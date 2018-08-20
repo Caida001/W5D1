@@ -1,0 +1,13 @@
+.se {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.se button {
+  font-weight: bold;
+}
+
+.se button:hover {
+  background-color: gray;
+}
